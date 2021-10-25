@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  @apply flex items-center justify-between flex-wrap bg-teal-300 p-6;
+}
+
+.nav a {
+  @apply text-gray-600;
+}
+
+.nav a.router-link-exact-active {
+  @apply text-sky-500;
+}
